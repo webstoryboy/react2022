@@ -9,6 +9,7 @@
     display: flex;
     align-items: center;
     font-family: "Rajdhani";
+    z-index: 1000;
 }
 .header__port {
     flex: 1 1 40%;
@@ -104,4 +105,10 @@
         background: rgba(0,0,0,0.1);
         backdrop-filter: blur(40px);
     }
+}
+
+
+// 헤더 애니메이션
+#header {
+    top: -100%;
 }
