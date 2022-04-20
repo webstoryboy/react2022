@@ -16,6 +16,13 @@ body {
     z-index: 99999;
     transition: all 1.6s;
 }
+#loading.light {
+    background: var(--light_bg);
+
+    .loading__text span {
+        color: var(--black);
+    }
+}
 .loading__text {
     position: absolute;
     top: 0;

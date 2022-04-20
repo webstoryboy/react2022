@@ -82,6 +82,7 @@ class Portfolio extends React.Component {
         setTimeout(() => {
             console.log("첫번째 시작")
             document.getElementById("loading").classList.remove("loading__active");
+            document.querySelector("body").style.background = "#000";
             this.getPorts();
         }, 2000)
     }
@@ -94,7 +95,7 @@ class Portfolio extends React.Component {
         return (
             <>
                 {isLoading ? (
-                    <Loading />
+                    <Loading color="black" />
                 ) : (
                     <>
                         <Header />
@@ -110,6 +111,5 @@ class Portfolio extends React.Component {
         )
     }
 }
-
 
 export default Portfolio;
