@@ -1,6 +1,4 @@
 {
-  "status": "ok",
-  "status_message": "Query was successful",
   "data": {
     "type": "html",
     "htmlRefer": [{
@@ -29,6 +27,7 @@
           "target='_blank' 속성을 사용할 경우 '새로운 브라우저에서 열림' 등의 메세지를 명시하여야 스크린리더기를 사용하는 사용자에게 도움을 줄 수 있습니다."
         ],
         "CrossBroswing": [],
+        "Related":[],
         "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a",
         "w3c": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element"
       }, {
@@ -56,6 +55,7 @@
         "CrossBroswing": [
           "HTML4에서는 약어를 표현할 때 <acronym>를 사용하였지만, HTML5에서는 약어를 표현할 때 <abbr>를 사용합니다."
         ],
+        "Related":[],
         "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr",
         "w3c": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-abbr-element"
       },
@@ -79,6 +79,7 @@
         "CrossBroswing": [
           "HTML4에서는 약어에 대해서는 <acronym>를 사용하고, HTML5에서는 약어를 <abbr>로 사용합니다."
         ],
+        "Related":[],
         "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/acronym",
         "w3c": ""
       },
@@ -104,6 +105,7 @@
         ],
         "Accessibility": [],
         "CrossBroswing": [],
+        "Related":[],
         "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address",
         "w3c": "https://html.spec.whatwg.org/multipage/sections.html#the-address-element"
       },
@@ -127,6 +129,7 @@
         "CrossBroswing": [
           "HTML5에서 지원하지 않습니다. 대신 <embed> 태그와 <object> 태그를 이용합니다."
         ],
+        "Related":[],
         "mdn": "https://developer.mozilla.org/ko/docs/Web/HTML/Element/applet",
         "w3c": ""
       },
@@ -153,26 +156,40 @@
         ],
         "Accessibility": [],
         "CrossBroswing": [],
+        "Related":[],
         "mdn": "https://developer.mozilla.org/ko/docs/Web/HTML/Element/area",
         "w3c": ""
       },
       {
         "id": 7,
-        "title": "",
-        "desc": "",
-        "desc2": "",
-        "element": "",
-        "tag": "",
-        "version": "",
-        "view": "",
-        "use": "",
-        "image": "",
-        "link": "",
-        "Definition": [],
+        "title": "<aside>",
+        "desc": "<aside> 태그는 주요 콘텐츠의 보조적 컨텐츠 섹션을 설정합니다.",
+        "desc2": "<aside> 태그는 주요 콘텐츠의 보조적 컨텐츠 섹션을 설정합니다. 웹 페이지의 메인 콘텐츠와 관련된 사이드의 정보, 광고 등 부분적인 정보를 나타낼 때 사용합니다.",
+        "element": "블록 요소(Block Element)",
+        "tag": "적용(<aside> ~ </aside>)",
+        "version": "HTML5",
+        "view": "-",
+        "use": "★★★★★",
+        "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/0muvh/btq4Jfz49xZ/vMGldKG5lfdO0LDO862LP0/img.png",
+        "link": "https://webzz.tistory.com/236",
+        "Definition": [
+          "<aside> 태그는 주요 콘텐츠의 보조적 컨텐츠 섹션을 설정합니다.",
+          "<aside> 태그는 웹 페이지의 메인 콘텐츠와 관련된 사이드의 정보, 광고 등 부분적인 정보를 나타낼 때 사용합니다."
+        ],
         "Accessibility": [],
         "CrossBroswing": [],
-        "mdn": "",
-        "w3c": ""
+        "Related":[
+          "<body> 태그는 사이트 본문에 해당하는 모든 콘텐츠를 포함하는 섹션을 설정합니다.",
+          "<article> 태그는 사이트의 독립적인 컨텐츠 섹션을 설정합니다.",
+          "<section> 태그는 주제별 그룹의 콘텐츠 섹션을 설정합니다.",
+          "<nav> 태그는 내부 페이지 및 외부 페이지에 대한 탐색 링크를 제공하는 페이지 섹션을 설정합니다.",
+          "<aside> 태그는 주요 콘텐츠의 보조적 컨텐츠 섹션을 설정합니다.",
+          "<h1>~<h6> 태그는 각 섹션의 제목을 설정합니다.",
+          "<header> 태그는 사이트의 소개 및 메뉴 그룹을 나타내는 섹션을 설정합니다.",
+          "<footer> 태그는 사이트 관련 정보 및 관련 링크 콘텐츠 섹션을 설정합니다."
+        ],
+        "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside",
+        "w3c": "https://html.spec.whatwg.org/multipage/sections.html#the-aside-element"
       }
     ]
   }
