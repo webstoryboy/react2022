@@ -6,18 +6,18 @@ import Title from "../layout/Title";
 import Contact from "../layout/Contact";
 import ScriptCont from "../includes/ScriptCont";
 
-function Script(){
-    return (
-        <>
-            <Header color="light" />
-            <Contents>
-                <Title title={["Script","book"]} color="light" />
-                <ScriptCont color="light" />
-                <Contact />
-            </Contents>
-            <Footer color="light" />
-        </>
-    )
+function Script() {
+  return (
+    <>
+      <Header color="light" />
+      <Contents>
+        <Title title={["Script", "book"]} color="light" />
+        <ScriptCont color="light" />
+        <Contact />
+      </Contents>
+      <Footer color="light" />
+    </>
+  );
 }
 
 export default Script;

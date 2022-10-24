@@ -2,20 +2,20 @@
 
 // 변수 설정
 :root {
-  --white : #fff;
-  --black : #000;
-  --dark_bg : #000;
-  --dark_border : #2e2e30;
-  --light_bg : #F0EEEB;
-  --light_border : #dad8d1;
+  --white: #fff;
+  --black: #000;
+  --dark_bg: #000;
+  --dark_border: #2e2e30;
+  --light_bg: #f0eeeb;
+  --light_border: #dad8d1;
 
-  --main_font : "Saol";
-  --sub_font : "Rajdhani";
-  --kor_font : "Chosunilbo";
-  --subKor_font : "S-CoreDream";
+  --main_font: "Saol";
+  --sub_font: "Rajdhani";
+  --kor_font: "Chosunilbo";
+  --subKor_font: "S-CoreDream";
 }
 
-// border-box 초기화 
+// border-box 초기화
 *,
 *:before,
 *:after {
@@ -24,14 +24,14 @@
   box-sizing: border-box;
 }
 
-// 가로모드 글씨 확대 초기화 
+// 가로모드 글씨 확대 초기화
 html {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
-// 공백 초기화 
+// 공백 초기화
 body,
 button,
 dd,

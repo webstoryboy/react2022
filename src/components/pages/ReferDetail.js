@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import Header from "../layout/Header";
 import Contents from "../layout/Contents";
 import Footer from "../layout/Footer";
@@ -12,34 +12,34 @@ import { gsap } from "gsap";
 // }
 
 class ReferDetail extends React.Component {
-  componentDidMount(){
-    const {location, history} = this.props;
-    if(location.state === undefined) {
+  componentDidMount() {
+    const { location, history } = this.props;
+    if (location.state === undefined) {
       history.push("/reference");
     }
     this.mainAnimation();
   }
 
   mainAnimation = () => {
-    setTimeout(() => { 
+    setTimeout(() => {
       gsap.to("#header", {
-        duration: 0.8, 
+        duration: 0.8,
         top: 0,
       });
       gsap.to("#footer", {
-        duration: 0.8, 
+        duration: 0.8,
         bottom: 0,
         delay: 0.2,
       });
-    }, 10)
-  }
+    }, 10);
+  };
 
-  render(){
-    const {location} = this.props;
+  render() {
+    const { location } = this.props;
     console.log(location.state);
 
-    if(location.state === undefined){
-      return <div>잘못된 페이지입니다.</div>
+    if (location.state === undefined) {
+      return <div>잘못된 페이지입니다.</div>;
     } else {
       return (
         <>
@@ -88,9 +88,8 @@ class ReferDetail extends React.Component {
           </Contents>
           <Footer color="light" />
         </>
-      )
+      );
     }
-    
   }
 }
 
